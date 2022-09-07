@@ -5,6 +5,12 @@ const request = require('request');
 */
 var personInfo = {
     find: (req, res, next) => {
+
+/* 
+* make request to get person info from other microservice
+* api.genderize.io microservice
+*/
+
         request('https://api.genderize.io?name=luc',
             (error, response, body) => {
                 if (!error && response.statusCode == 200) {
