@@ -1,0 +1,19 @@
+{
+    "apps" : [
+        {
+        "name"       : "api-server1",
+        "script"     : "./server.js",
+        "instances"  : 4,
+        "exec_mode"  : "cluster"
+    },{
+        "name"       : "api-server2",
+        "script"     : "./server2.js",
+        "instances"  : 4,
+        "exec_mode"  : "cluster"
+    },{
+        "name"       : "api-server3",
+        "script"     : "./server3.js",
+        "instances"  : 4,
+        "exec_mode"  : "cluster"
+    }]
+}
