@@ -52,3 +52,8 @@ https://fauna.com/blog/how-to-build-microservices-with-node-js
       make request from server1 : http://127.0.0.1/api1/about
       make request from server2 : http://127.0.0.1/api2/
       make request from server3 : http://127.0.0.1/api3/
+
+3- Configure NGINX TO Serving Static Assets :
+   we can easily configure it to serve up any static assets our app requires. 
+   This will save the overhead of passing through these requests for Node to handle.
+
