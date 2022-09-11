@@ -1,3 +1,7 @@
+'use strict';
+// Strict mod to prevent any code error 
+// like x=55 without let will cause error 
+let x=55.3;
 const express = require('express');
 const app = express();
 
