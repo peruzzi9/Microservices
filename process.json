@@ -15,5 +15,20 @@
         "script"     : "./server3.js",
         "instances"  : 4,
         "exec_mode"  : "cluster"
+    },{
+        "name"       : "api-server4_1",
+        "script"     : "./server4_1.js",
+        "instances"  : 1,
+        "exec_mode"  : "cluster"
+    },{
+        "name"       : "api-server4_2",
+        "script"     : "./server4_2.js",
+        "instances"  : 1,
+        "exec_mode"  : "cluster"
+    },{
+        "name"       : "api-server4_3",
+        "script"     : "./server4_3.js",
+        "instances"  : 1,
+        "exec_mode"  : "cluster"
     }]
 }

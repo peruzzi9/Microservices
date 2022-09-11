@@ -57,3 +57,11 @@ https://fauna.com/blog/how-to-build-microservices-with-node-js
    we can easily configure it to serve up any static assets our app requires. 
    This will save the overhead of passing through these requests for Node to handle.
 
+4- Configure NGINX for Load Balancing 
+  
+  we created three simple servers server4_1  /  server4_2  /  server4_3
+  - those servers will serve /api4 requests
+  - server4_3 is down / offline 
+  - nginx file configured  to support Load Balancing for /api4
+  - see nginx configuration file to understand this .
+  - batch file was created to kill all nginx runnuing tasks ( kill_all_nginx_tasks.bat ) 
